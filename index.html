@@ -11,13 +11,13 @@
 <meta property="og:site_name" content="스푼잉글리쉬">
 <meta property="og:title" content="How to Use the App">
 <meta property="og:description" content="스푼잉글리쉬 앱 사용 매뉴얼">
-<meta property="og:image" content="https://YOUR_USERNAME.github.io/YOUR_REPO/og-image.png">
-<meta property="og:image:type" content="image/png">
+<meta property="og:image" content="https://YOUR_USERNAME.github.io/YOUR_REPO/link_thumb.jpg">
+<meta property="og:image:type" content="image/jpeg">
 <meta property="og:url" content="https://YOUR_USERNAME.github.io/YOUR_REPO/">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="How to Use the App">
 <meta name="twitter:description" content="스푼잉글리쉬 앱 사용 매뉴얼">
-<meta name="twitter:image" content="https://YOUR_USERNAME.github.io/YOUR_REPO/og-image.png">
+<meta name="twitter:image" content="https://YOUR_USERNAME.github.io/YOUR_REPO/link_thumb.jpg">
 <link rel="icon" href="og-image.png" type="image/png">
 <link rel="apple-touch-icon" href="og-image.png">
 <style>
@@ -140,7 +140,7 @@ h1{font-size:2.55rem;margin:0 0 20px;padding:0 4px;font-weight:300;text-align:ce
 <div class="accordion-item">
 <button class="accordion-header"><span class="num">9</span>문의하기</button>
 <div class="accordion-content">
-<img src="images/09_inquiry.png" class="manual-image" width="1000" height="1000" alt="문의하기">
+<img src="문의하기.jpg" class="manual-image" alt="문의하기">
 <p>설명 입력</p>
 </div>
 </div>
@@ -148,7 +148,7 @@ h1{font-size:2.55rem;margin:0 0 20px;padding:0 4px;font-weight:300;text-align:ce
 <div class="accordion-item">
 <button class="accordion-header"><span class="num">10</span>커뮤니티</button>
 <div class="accordion-content">
-<img src="images/10_community.png" class="manual-image" width="1000" height="1000" alt="커뮤니티">
+<img src="커뮤니티.jpg" class="manual-image" alt="커뮤니티">
 <p>설명 입력</p>
 </div>
 </div>
@@ -183,8 +183,8 @@ document.addEventListener('click', (e) => {
 }, { capture: true });
 
 // 앱 다운로드 링크 — URL 입력 시 각 버튼에 연동됩니다
-const IOS_DOWNLOAD_URL = '';
-const ANDROID_DOWNLOAD_URL = '';
+const IOS_DOWNLOAD_URL = 'https://apps.apple.com/kr/app/%EC%8A%A4%ED%91%BC%EC%9E%89%EA%B8%80%EB%A6%AC%EC%89%AC/id6755587378';
+const ANDROID_DOWNLOAD_URL = 'https://play.google.com/store/apps/details?id=com.tutee.spoon';
 
 function setupDownloadLink(id, url) {
   const link = document.getElementById(id);
